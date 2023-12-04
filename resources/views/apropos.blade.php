@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EstateAgency Bootstrap Template - About</title>
+  <title>HouseAgency </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,7 +41,7 @@
   <!--/ Form Search Star /-->
   <div class="box-collapse">
     <div class="title-box-d">
-      <h3 class="title-d">Search Property</h3>
+      <h3 class="title-d">Chercher une Propriété</h3>
     </div>
     <span class="close-box-collapse right-boxed bi bi-x"></span>
     <div class="box-collapse-wrap form">
@@ -57,10 +57,10 @@
             <div class="form-group mt-3">
               <label class="pb-2" for="Type">Type</label>
               <select class="form-control form-select form-control-a" id="Type">
-                <option>All Type</option>
-                <option>For Rent</option>
-                <option>For Sale</option>
-                <option>Open House</option>
+                <option>Tout type</option>
+                <option>A vendre</option>
+                <option>A louer</option>
+                <option>Parcelles</option>
               </select>
             </div>
           </div>
@@ -68,11 +68,11 @@
             <div class="form-group mt-3">
               <label class="pb-2" for="city">City</label>
               <select class="form-control form-select form-control-a" id="city">
-                <option>All City</option>
-                <option>Alabama</option>
-                <option>Arizona</option>
-                <option>California</option>
-                <option>Colorado</option>
+                <option>Toutes villes</option>
+                <option>Ouagadougou</option>
+                <option>Bobo dioulassou</option>
+                <option>Koudougou</option>
+                <option>Fada</option>
               </select>
             </div>
           </div>
@@ -144,15 +144,15 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link " href="{{ route('welcome') }}">Home</a>
+            <a class="nav-link " href="{{ route('welcome') }}">Accueil</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="{{ route('apropos') }}">About</a>
+            <a class="nav-link active" href="{{ route('apropos') }}">A propos</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="{{ route('propriete') }}">Property</a>
+            <a class="nav-link " href="{{ route('propriete') }}">Propriété</a>
           </li>
 
           <li class="nav-item">
@@ -162,8 +162,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="property-single.html">Property Single</a>
-              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
+              <a class="dropdown-item " href="property-single.html">Propriété Unique</a>
+              <a class="dropdown-item " href="blog-single.html">Blog unique</a>
               <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
               <a class="dropdown-item " href="agent-single.html">Agent Single</a>
             </div>
@@ -189,17 +189,17 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">We Do Great Design For Creative Folks</h1>
+              <h1 class="title-single">Nous réalisons du superbe design pour les créatifs</h1>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <a href="{{ route('welcome') }}">Accueil</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  About
+                  A propos
                 </li>
               </ol>
             </nav>
@@ -217,11 +217,11 @@
               <img src="assets/img/slide-about-1.jpg" alt="" class="img-fluid">
             </div>
             <div class="sinse-box">
-              <h3 class="sinse-title">EstateAgency
+              <h3 class="sinse-title">HouseAgency
                 <span></span>
-                <br> Sinse 2017
+               
               </h3>
-              <p>Art & Creative</p>
+              <p>Votre futur chez-vous commence ici</p>
             </div>
           </div>
           <div class="col-md-12 section-t8 position-relative">
@@ -268,7 +268,7 @@
           <div class="col-md-12">
             <div class="title-wrap d-flex justify-content-between">
               <div class="title-box">
-                <h2 class="title-a">Meet Our Team</h2>
+                <h2 class="title-a">Rencontrez notre équipe</h2>
               </div>
             </div>
           </div>
@@ -465,7 +465,7 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">EstateAgency</h3>
+              <h3 class="w-title-a text-brand">HouseAgency</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
@@ -476,10 +476,10 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> contact@example.com
-                </li>
+                  <span class="color-text-a">Phone .</span> +54 356 945234  </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +54 356 945234
+                  <span class="color-text-a">Email .</span> contact@example.com
+
                 </li>
               </ul>
             </div>
@@ -488,13 +488,13 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">The Company</h3>
+              <h3 class="w-title-a text-brand">L'entréprise</h3>
             </div>
             <div class="w-body-a">
               <div class="w-body-a">
                 <ul class="list-unstyled">
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Site Map</a>
+                    <i class="bi bi-chevron-right"></i> <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.095979164438!2d-1.5030509258212703!3d12.376502827647675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebe47e1af9855%3A0x1278af12903c216!2sCampus%20Num%C3%A9rique%20Francophone%20de%20Ouagadougou%20(AUF%20OUAGA)!5e0!3m2!1sfr!2sbf!4v1699368879879!5m2!1sfr!2sbf">Site Map</a>
                   </li>
                   <li class="item-list-a">
                     <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
@@ -555,19 +555,19 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="#">Accueil</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="{{ route('apropos') }}">A propos</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
+                <a href="{{ route('propriete') }}">Propriété</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Blog</a>
+                <a href="{{ route('blog') }}">Blog</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="{{ route('contact') }}">Contact</a>
               </li>
             </ul>
           </nav>
@@ -598,7 +598,7 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright
-              <span class="color-a">EstateAgency</span> All Rights Reserved.
+              <span class="color-a">HouseAgency</span> Tous droits réservés.
             </p>
           </div>
           <div class="credits">

@@ -4,43 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
+class ParcelleController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function welcome()
+    public function index()
     {
-       return view('welcome');
+        //
     }
-
-    public function apropos()
-    {
-       return view('apropos');
-    }
-
-    public function propriete()
-    {
-       return view('propriete');
-    }
-
-    public function blog()
-    {
-       return view('blog');
-    }
-
-    public function contact()
-    {
-       return view('contact');
-    }
-
-    public function agents()
-    {
-       return view('agents');
-    }
-
-    
-    
 
     /**
      * Show the form for creating a new resource.

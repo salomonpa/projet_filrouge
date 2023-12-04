@@ -22,4 +22,6 @@ Route::get('apropos', [WelcomeController::class, 'apropos'])->name('apropos');
 Route::get('propriete', [WelcomeController::class, 'propriete'])->name('propriete');
 Route::get('blog', [WelcomeController::class, 'blog'])->name('blog');
 Route::get('contact', [WelcomeController::class, 'contact'])->name('contact');
+Route::get('agents', [WelcomeController::class, 'agents'])->name('agents');
+
 
